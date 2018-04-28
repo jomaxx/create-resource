@@ -1,0 +1,32 @@
+{
+  "name": "create-resource",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "lib/index.es.js",
+  "scripts": {
+    "prebuild": "rm -rf",
+    "build": "rollup -c",
+    "test": "NODE_ENV=test jest",
+    "prepublishOnly": "yarn test && yarn build"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react-async-await": "^1.5.0"
+  },
+  "peerDependencies": {
+    "react": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^22.4.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-testing-library": "^2.3.0",
+    "rollup": "^0.58.2",
+    "rollup-plugin-babel": "^3.0.4"
+  }
+}

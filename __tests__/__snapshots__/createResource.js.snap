@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`throws error 1`] = `[Error: error]`;
+
+exports[`throws missing ResourceLoading ancestor 1`] = `[Error: missing ResourceLoading ancestor!]`;
